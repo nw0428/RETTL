@@ -12,13 +12,17 @@ A repository for RETTL code
 1. Download basicserial.py from this repository
 1. `pip3 install pyserial` or `pip install pyserial`
 
-### If you don't mind leaving the spike prime plugged into your computer
-Run `python basicserial.py` to see the training and current data 
+### For data over USB
+Run `python basicserial.py` to see the training and current data. Choose the appropriate USB port when prompted
 
 
-
-### For bluetooth
-Complicated instructions
+### For data over bluetooth
+The bluetooth connection is tricky
+1. Remove the battery from spike prime
+1. Open bluetooth settings and delete your spike prime
+1. Replace the battery in spike prime, turn it on, and touch the bluetooth button
+1. Re-add and connect with spike prime 
+1. Run `python basicserial.py` to see the training and current data
 
 
 ## Run program 0 on spike prime
